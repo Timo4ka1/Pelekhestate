@@ -1,0 +1,27 @@
+.left--side{
+
+   .pretitle{
+      text-transform: uppercase;
+      color: $logo-color;
+   }
+
+   .title{
+      font-size: 36px;
+      line-height: 52px;
+   }
+}
+
+//==============Карточки с домами=================
+
+.section5__cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+
+      .section5__card{
+
+         .card__type{
+            text-transform: uppercase;
+         }
+      }
+}
